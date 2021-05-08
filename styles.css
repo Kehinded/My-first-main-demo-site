@@ -787,7 +787,12 @@ body {
   background-color: #132e59;
   opacity: .8;
   display: none; }
-
+.section__4 .heading-4{
+    color: red;
+    margin: 2rem 0rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
 .main-1 {
   background-color: #ecf0f3;
   grid-column: full-start / full-end;
