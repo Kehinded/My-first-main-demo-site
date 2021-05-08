@@ -175,19 +175,19 @@ body {
 
 @keyframes bg-change {
   0% {
-    background-image: linear-gradient(rgba(19, 46, 89, 0.85), rgba(19, 46, 89, 0.85)), url(/img/farm-fish-1.jpeg);
+    background-image: linear-gradient(rgba(19, 46, 89, 0.85), rgba(19, 46, 89, 0.85)), url(./img/farm-fish-1.jpeg);
     background-size: cover;
     background-position: center; }
   25% {
-    background-image: linear-gradient(rgba(19, 46, 89, 0.85), rgba(19, 46, 89, 0.85)), url(/img/farm-pepper-3.jpeg);
+    background-image: linear-gradient(rgba(19, 46, 89, 0.85), rgba(19, 46, 89, 0.85)), url(./img/farm-pepper-3.jpeg);
     background-size: cover;
     background-position: center; }
   50% {
-    background-image: linear-gradient(rgba(19, 46, 89, 0.85), rgba(19, 46, 89, 0.85)), url(/img/farm-chicken-1.jpeg);
+    background-image: linear-gradient(rgba(19, 46, 89, 0.85), rgba(19, 46, 89, 0.85)), url(./img/farm-chicken-1.jpeg);
     background-size: cover;
     background-position: center; }
   75% {
-    background-image: linear-gradient(rgba(19, 46, 89, 0.85), rgba(19, 46, 89, 0.85)), url(/img/farm-cattle-3.jpeg);
+    background-image: linear-gradient(rgba(19, 46, 89, 0.85), rgba(19, 46, 89, 0.85)), url(./img/farm-cattle-3.jpeg);
     background-size: cover;
     background-position: center; }
   100% {
@@ -344,7 +344,7 @@ body {
     .header {
       flex-direction: column; } }
   .header__detail-box {
-    background-image: linear-gradient(rgba(19, 46, 89, 0.9), rgba(19, 46, 89, 0.9)), url(/img/hotel-9.jpeg);
+    background-image: linear-gradient(rgba(19, 46, 89, 0.9), rgba(19, 46, 89, 0.9)), url(./img/hotel-9.jpeg);
     background-size: cover;
     background-position: center;
     flex: 1;
@@ -1413,7 +1413,8 @@ body {
     width: 60%;
     justify-content: center;
     background: #ecf0f3;
-    box-shadow: 0rem .3rem .5rem #cbced1, 0rem -.3rem .5rem #fff;
+    box-shadow: 0rem .3rem .5rem #cbced1,
+ 0rem -.3rem .5rem #fff;
     border-radius: 4rem; }
     @media only screen and (max-width: 54em) {
       .hotel-booking__box {
@@ -1458,7 +1459,8 @@ body {
         border-radius: 2.5rem;
         transition: all .3s;
         cursor: pointer;
-        box-shadow: .8rem .8rem .8rem #cbced1, -.8rem -.8rem .8rem #fff; }
+        box-shadow: .8rem .8rem .8rem #cbced1,
+ -.8rem -.8rem .8rem #fff; }
         @media only screen and (max-width: 37.5em) {
           .hotel-booking__form .form-group .gender-box label {
             padding: 1,4rem 2rem;
@@ -1495,7 +1497,8 @@ body {
         border-radius: 2.5rem;
         transition: all .3s;
         cursor: pointer;
-        box-shadow: .8rem .8rem .8rem #cbced1, -.8rem -.8rem .8rem #fff; }
+        box-shadow: .8rem .8rem .8rem #cbced1,
+ -.8rem -.8rem .8rem #fff; }
         @media only screen and (max-width: 37.5em) {
           .hotel-booking__form .form-group .pay_type-box label {
             padding: 1,4rem 2rem;
@@ -1510,7 +1513,8 @@ body {
     background: none;
     margin-left: 2rem;
     border-radius: 2.5rem;
-    box-shadow: inset .8rem .8rem .8rem #cbced1, inset -.8rem -.8rem .8rem #fff;
+    box-shadow: inset .8rem .8rem .8rem #cbced1,
+ inset -.8rem -.8rem .8rem #fff;
     transition: all .3s; }
     @media only screen and (max-width: 37.5em) {
       .hotel-booking__form .form-input, .hotel-booking__form .form-select {
@@ -1524,14 +1528,17 @@ body {
     text-align: center; }
   .hotel-booking__form .form-input:focus {
     outline: none;
-    box-shadow: 2rem 2rem 1rem #cbced1, -1rem -1rem 1rem #fff; }
+    box-shadow: 2rem 2rem 1rem #cbced1,
+ -1rem -1rem 1rem #fff; }
   .hotel-booking__form .form-select {
     padding: 1.4rem 11rem;
-    box-shadow: inset .8rem .8rem .8rem #cbced1, inset -.8rem -.8rem .8rem #fff;
+    box-shadow: inset .8rem .8rem .8rem #cbced1,
+ inset -.8rem -.8rem .8rem #fff;
     transition: all .3s; }
     .hotel-booking__form .form-select:focus {
       outline: none;
-      box-shadow: 2rem 2rem 1rem #cbced1, -1rem -1rem 1rem #fff; }
+      box-shadow: 2rem 2rem 1rem #cbced1,
+ -1rem -1rem 1rem #fff; }
     .hotel-booking__form .form-select .form-option {
       background-color: #ecf0f3;
       text-transform: capitalize;
@@ -1559,12 +1566,14 @@ body {
     margin-left: auto;
     position: relative;
     width: 100%;
-    box-shadow: .3rem .3rem .4rem #cbced1, -.3rem -.3rem .4rem #fff;
+    box-shadow: .3rem .3rem .4rem #cbced1,
+ -.3rem -.3rem .4rem #fff;
     overflow: hidden;
     transition: all .3s; }
     .hotel-booking__form .btn:hover {
       transform: scale(1);
-      box-shadow: inset .3rem .3rem .4rem #cbced1, inset  -.3rem -.3rem .4rem #fff; }
+      box-shadow: inset .3rem .3rem .4rem #cbced1,
+ inset  -.3rem -.3rem .4rem #fff; }
     .hotel-booking__form .btn span {
       position: absolute;
       top: 20%;
