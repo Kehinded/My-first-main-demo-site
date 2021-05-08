@@ -1,0 +1,1244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIMI COMPANIES</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+</head>
+<body class="container">
+    <!-- sidebar part -->
+   <nav class="sidebar">
+       <ul class="sidebar__list">
+       <li class="sidebar__item sidebar__item-1 active-link"><a href="#" class="sidebar__link">
+        <svg class="sidebar__icon">
+            <use xlink:href = "./img/sprite.svg#icon-home"></use>
+        </svg>
+        <p>farm</p>
+       </a></li>
+       <li class="sidebar__item sidebar__item-2"><a href="#" class="sidebar__link">
+        <svg class="sidebar__icon">
+            <use xlink:href = "./img/sprite.svg#icon-airplane"></use>
+        </svg>
+        <p>airport</p>
+       </a></li>
+       <li class="sidebar__item sidebar__item-3"><a href="#" class="sidebar__link">
+        <svg class="sidebar__icon">
+            <use xlink:href = "./img/sprite.svg#icon-office"></use>
+        </svg>
+        <p>hotel</p>
+       </a></li>
+       <li class="sidebar__item sidebar__item-4"><a href="#" class="sidebar__link">
+        <svg class="sidebar__icon">
+            <use xlink:href = "./img/sprite.svg#icon-truck"></use>
+        </svg>
+        <p>fuel</p>
+       </a></li>
+       <li class="sidebar__item sidebar__item-5"><a href="#" class="sidebar__link">
+        <svg class="sidebar__icon">
+            <use xlink:href = "./img/sprite.svg#icon-bullhorn"></use>
+        </svg>
+        <p>about us</p>
+       </a></li>
+       </ul>
+
+       <div class="sidebar__text">
+           <p>&copy;Copyright 2021</p>
+       </div>
+   </nav>
+   <!-- end of sidebar -->
+   <!-- header part -->
+   <header class="header">
+       <div class="header__detail-box">
+       <svg class="header__icon">
+           <use xlink:href = "./img/sprite.svg#icon-library"></use>
+       </svg>
+       <h1 class="heading-1">AKOT</h1>
+       <h3 class="heading-3 slogan">we make your needs an easy take.</h3>
+       <div class="header__icon-1-box"> <svg class="header__icon-1">
+            <use xlink:href = "./img/sprite.svg#icon-menu"></use>
+        </svg></div>
+       </div>
+
+       <div class="header__owner-box">
+       <figure class="header__owner-imgbox">
+           <img src="./img/owner-1.jpg" alt="owner-image" class="header__owner-img">
+       </figure>
+       <div class="owner-about">
+        <h2 class="heading-2">c.e.o</h2>
+        <p class="owner-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut suscipit sint atque molestias quaerat. 
+           <span> Read more &rarr;</span>
+        </p>
+       </div>
+       <p class="header__owner-info">Ayeni Timilehin</p>
+       <div class="header__owner-icons">
+           <div class="notification-box-1">
+            <svg class="notification-icon">
+                <use xlink:href = "./img/sprite.svg#icon-file-text2"></use>
+            </svg>
+            <span class="item-no">0</span>
+           </div>
+           <div class="notification-box-2">
+            <svg class="notification-icon">
+                <use xlink:href = "./img/sprite.svg#icon-earth"></use>
+            </svg>
+            <span>7</span>
+           </div>
+              <!-- akot booking list start -->
+       <div class="booking-box">
+        <div class="booking-wrapper">
+            <div class="heading-5">your book list of items</div>
+            <div class="booking-cancel">&times;</div>
+           <table class="booking-table">
+               <thead>
+                   <tr>
+                       <th>description</th>
+                       <th>amount</th>
+                       <th>date</th>
+                       <th></th>
+                   </tr>
+               </thead>
+               <tbody class="booking-body" id="booking-body">
+                   
+               </tbody>
+           </table>
+           <div class="total-amount-box">total cost <svg class="total-icon">
+              <use xlink:href = "./img/sprite.svg#icon-redo2"></use>
+          </svg> <div class="total-amount-value">No item added to list</div></div>
+        </div>
+        <!-- loader part -->
+        <div class="booking-loader-box">
+               <img src="./img/loader-1.webp" alt="loader image" class="loader-img">
+           </div>
+        <!-- form book list part -->
+        <form action="#" class="book-list-form">
+            <div class="form-group">
+                <label for="first-name" class="form-label">first name</label>
+                <input type="text" class="form-input form-input-name-1" id="first-name" placeholder="first name">
+            </div>
+            <div class="form-group">
+                <label for="last-name" class="form-label">last name</label>
+                <input type="text" class="form-input form-input-name-2" id="last-name" placeholder="last name">
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label">email</label>
+                <input type="email" class="form-input form-input-email" id="email" placeholder="email">
+            </div>
+            <div class="form-group">
+                <label for="number" class="form-label">telephone</label>
+                <input type="text" class="form-input form-input-number" id="number" placeholder="telephone">
+            </div>
+            <div class="form-submit-msg"></div>
+            <div class="form-button">
+                <button class="form-button-clear">clear list item(s)</button>
+                <button class="form-button-submit">submit</button>
+            </div>
+        </form>
+     </div>
+     <!-- akot booking list end -->
+       </div>
+       </div>
+       <!-- about us -->
+       <div class="cover-wrapper"></div>
+       <div class="about-us-box">
+           <div class="about-us-wrapper">
+               <h5 class="heading-5">all about AKOT</h5>
+               <div class="underline"></div>
+               <span class="about-us-cancel">&times;</span>
+               <p class="text">
+                   Ayeni Kehinde OluwaTimilehin (AKOT) is the owner of this site, a great guy who is so in love with programming,
+                   he is based in LAGOS, NIGERIA. My objective is to establish a well driven goal-oriented career, which will be accomplished
+                   with a touch of professionalism and hard work. This includes working in a team-oriented environment as surrounding myself
+                   with like-minded individuals is a high priority. I also aim to make remarkable contributions in my area of specialization and beyond. 
+            Eos repellendus accusantium aut distinctio veniam labore 
+        totam ipsam animi, suscipit ratione molestias magnam voluptas aperiam
+         accusamus nisi eaque similique, impedit deleniti quibusdam nulla 
+         architecto amet! Unde aperiam doloribus eveniet consectetur vitae 
+         quaerat est aspernatur fugiat ab nisi, provident, quae ad ducimus dicta necessitatibus alias! Rem unde veritatis, distinctio reprehenderit quasi aperiam repellendus ipsum hic! Vel veritatis a quo nulla beatae iste sed, modi hic ipsum quam eveniet harum illum, dolor qui. Asperiores ex officia, ea fugiat vel aliquid maiores 
+                   perferendis in quaerat aspernatur quo perspiciatis rerum libero odio! Inventore?
+               </p>
+               <br>
+               <p class="text">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora corrupti dolorem optio enim. Laudantium maxime rem iste sapiente assumenda ea doloremque itaque consequuntur architecto optio ad atque placeat ducimus libero at cupiditate, animi fuga dignissimos odit culpa iusto. 
+                   Animi mollitia distinctio ea corporis modi soluta aliquid? Deleniti, possimus fugit? Magni? <span>read more &rarr;</span>
+               </p>
+           </div>
+       </div>
+   </header>
+   <!-- end of header -->
+<!-- farm part  start-->
+   <main class="main-1 farm">
+       <!-- farm rating -->
+    <div class="section__1">
+    <div class="farm__rating">
+        <div class="farm__rating-name">akot farm</div>
+        <div class="farm__rating-star">
+            <svg class="rating-icon">
+                <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+            </svg>
+            <svg class="rating-icon">
+                <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+            </svg>
+            <svg class="rating-icon">
+                <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+            </svg>
+            <svg class="rating-icon">
+                <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+            </svg>
+            <svg class="rating-icon">
+                <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+            </svg>
+        </div>
+        <div class="farm__rating-location btn-inline">
+            <svg class="location-icon">
+                <use xlink:href = "./img/sprite.svg#icon-location2"></use>
+            </svg>
+            <div class="text">lagos, nigeria</div>
+        </div>
+         <div class="farm__rating-value-box">
+        <p>4.6</p>
+        <span>1786 votes</span>
+    </div>
+    </div>
+    </div>
+    <!-- farm rating end -->
+    <!-- farm advert -->
+       <div class="section__2 farm-advert">
+           <div class="farm-advert-1">
+            <div class="box">
+                <figure class="item"><img src="./img/farm-chicken-4.jpeg" alt="" class="farm-img"></figure>
+                <figure class="item"><img src="./img/farm-fish-6.jfif" alt="" class="farm-img"></figure>
+                <figure class="item"><img src="./img/farm-pepper-3.jpeg" alt="" class="farm-img"></figure>
+                <figure class="item"><img src="./img/farm-cattle-2.jpeg" alt="" class="farm-img"></figure>
+                <figure class="item"><img src="./img/farm-fish-3.jpeg" alt="" class="farm-img"></figure>
+            </div>
+            <div class="box box-before">
+                <figure class="item"><img src="./img/farm-chicken-1.jpeg" alt="" class="farm-img"></figure>
+                <figure class="item"><img src="./img/farm-fish-2.jpeg" alt="" class="farm-img"></figure>
+                <figure class="item"><img src="./img/farm-tomato-2.jpeg" alt="" class="farm-img"></figure>
+                <figure class="item"><img src="./img/farm-cattle-4.jpeg" alt="" class="farm-img"></figure>
+                <figure class="item"><img src="./img/farm-chicken-3.jpeg" alt="" class="farm-img"></figure>
+            </div>
+           </div>
+
+           <div class="farm-advert-2">
+               <div class="card">
+                   <div class="card__side card__side-front">
+                       <div class="heading-4">hello!! try checking on our other sites. thanks</div>
+                       <svg class="normal-icon">
+                        <use xlink:href = "./img/sprite.svg#icon-wink2"></use>
+                    </svg>
+                   </div>
+                   <div class="card__side card__side-back">
+                   <figure class="image-advert-box-1">
+                       <img src="/img/hotel-7.jpeg" alt="" class="image-advert">
+                   </figure>
+                   <figure class="image-advert-box-2">
+                    <img src="/img/airport-3.jpeg" alt="" class="image-advert">
+                </figure>
+                <figure class="image-advert-box-3">
+                    <img src="/img/hotel-3.jpeg" alt="" class="image-advert">
+                </figure>
+                <figure class="image-advert-box-4">
+                    <img src="/img/airport-5.jpeg" alt="" class="image-advert">
+                </figure>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <!-- farm advert end -->
+       <!-- farm about -->
+       <div class="section__3 farm-about">
+       <div class="heading-5">our stories </div>
+       <div class="farm-about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+           Incidunt, vero autem sapiente quasi dolorem impedit corporis laborum quibusdam nam
+            earum consequatur dicta provident ipsum? Ipsam ipsa fugiat magni sapiente fuga aliquid
+             numquam dolores aliquam culpa! Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+             Officia nobis illo quod omnis quas fuga quo ipsam mollitia veniam ullam.<span class="btn-inline">read more &rarr;</span>
+        </div>
+             <div class="heading-5">customers feedbacks</div>
+        <div class="farm-about__feedback farm-about__feedback-1">
+            <img src="./img/friend-5.jpeg" alt="" class="img-feedback">
+            <div class="detail-box">
+                <div class="name">bowel lackson</div>
+            <p class="text">
+                Love getting beef and fish from you guys, your farm is the best 
+                quo sint similique ad incidunt ullam autem neque! <span class="btn-inline">read more &rarr;</span>
+            </p>
+            </div>
+        </div>
+        <div class="farm-about__feedback farm-about__feedback-2">
+            <img src="./img/friend-6.jpeg" alt="" class="img-feedback">
+           <div class="detail-box">
+            <div class="name">jayden roys</div>
+            <p class="text">
+                Cant wait to get my fresh basket of pepper, always looking fresh. Sunt corporis soluta earum 
+                quo sint similique ad incidunt ullam autem neque! <span class="btn-inline">read more &rarr;</span>
+            </p>
+           </div>
+        </div>
+             <div class="farm-about__recomend-box">
+            <div class="text">Nora and three other friends recommend this farm</div>
+            <div class="img-box">
+                <img src="./img/friend-7.jpeg" alt="" class="img-friend">
+                <img src="./img/friend-4.jpg" alt="" class="img-friend">
+                <img src="./img/friend-8.jpeg" alt="" class="img-friend">
+                <img src="./img/friend-3.jpg" alt="" class="img-friend">
+            </div>
+            </div>
+       </div>
+       <!-- farm about end -->
+       <!-- farm booking start -->
+       <div class="section__4">
+           <div class="heading-5">book our products easily online</div>
+           <div class="farm-booking">
+               <div class="farm-booking-item item-1 farm-parent-1">
+                   <img src="./img/farm-chicken-1.jpeg" alt="" class="card-img">
+                 <div class="card-name">chickens</div>
+                 <ul class="card-list">
+                    <li class="card-item">
+                        <svg class="rating-icon">
+                            <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                        </svg>Lorem, ipsum dolor.
+                    </li>
+                    <li class="card-item">
+                        <svg class="rating-icon">
+                            <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                        </svg>Lorem, ipsum dolor.
+                    </li>
+                    <li class="card-item">
+                        <svg class="rating-icon">
+                            <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                        </svg>Lorem, ipsum dolor.
+                    </li>
+                    <li class="card-item">
+                        <svg class="rating-icon">
+                            <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                        </svg>Lorem, ipsum dolor.
+                    </li>
+                    <li class="card-item">
+                        <svg class="rating-icon">
+                            <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                        </svg>Lorem, ipsum dolor.
+                    </li>
+                 </ul>
+                 <svg class="sidebar__icon like-icon-1">
+                    <use xlink:href = "./img/sprite.svg#icon-heart"></use>
+                </svg> 
+                 <button class="card-btn farm-card-1"><div class="book">book now</div> <span>#2,500 per chicken</span></button>
+               </div>
+                 
+               <div class="farm-booking-item item-2 farm-parent-2">
+                <img src="./img/farm-pepper-3.jpeg" alt="" class="card-img">
+              <div class="card-name">vegetables</div>
+              <ul class="card-list">
+                 <li class="card-item">
+                     <svg class="rating-icon">
+                         <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                     </svg>Lorem, ipsum dolor.
+                 </li>
+                 <li class="card-item">
+                     <svg class="rating-icon">
+                         <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                     </svg>Lorem, ipsum dolor.
+                 </li>
+                 <li class="card-item">
+                     <svg class="rating-icon">
+                         <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                     </svg>Lorem, ipsum dolor.
+                 </li>
+                 <li class="card-item">
+                     <svg class="rating-icon">
+                         <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                     </svg>Lorem, ipsum dolor.
+                 </li>
+                 <li class="card-item">
+                     <svg class="rating-icon">
+                         <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                     </svg>Lorem, ipsum dolor.
+                 </li>
+              </ul>
+              <svg class="sidebar__icon like-icon-2">
+                <use xlink:href = "./img/sprite.svg#icon-heart"></use>
+            </svg>
+              <button class="card-btn farm-card-2"><div class="book">book now</div> <span>#4,500 per basket</span></button>
+            </div>
+            <div class="farm-booking-item item-3">
+                <img src="./img/farm-fish-6.jfif" alt="" class="card-img">
+              <div class="card-name">fish</div>
+              <ul class="card-list">
+                 <li class="card-item">
+                     <svg class="rating-icon">
+                         <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                     </svg>Lorem, ipsum dolor.
+                 </li>
+                 <li class="card-item">
+                     <svg class="rating-icon">
+                         <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                     </svg>Lorem, ipsum dolor.
+                 </li>
+                 <li class="card-item">
+                     <svg class="rating-icon">
+                         <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                     </svg>Lorem, ipsum dolor.
+                 </li>
+                 <li class="card-item">
+                     <svg class="rating-icon">
+                         <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                     </svg>Lorem, ipsum dolor.
+                 </li>
+                 <li class="card-item">
+                     <svg class="rating-icon">
+                         <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                     </svg>Lorem, ipsum dolor.
+                 </li>
+              </ul>
+              <svg class="sidebar__icon like-icon-3">
+                <use xlink:href = "./img/sprite.svg#icon-heart"></use>
+            </svg>
+              <button class="card-btn farm-card-3"><div class="book">book now</div> <span>#5,500 per basket</span></button>
+            </div>
+            <div class="farm-booking-item item-4">
+                <img src="./img/farm-cattle-2.jpeg" alt="" class="card-img">
+              <div class="card-name">cattle</div>
+              <ul class="card-list">
+                 <li class="card-item">
+                     <svg class="rating-icon">
+                         <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                     </svg>Lorem, ipsum dolor.
+                 </li>
+                 <li class="card-item">
+                     <svg class="rating-icon">
+                         <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                     </svg>Lorem, ipsum dolor.
+                 </li>
+                 <li class="card-item">
+                     <svg class="rating-icon">
+                         <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                     </svg>Lorem, ipsum dolor.
+                 </li>
+                 <li class="card-item">
+                     <svg class="rating-icon">
+                         <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                     </svg>Lorem, ipsum dolor.
+                 </li>
+                 <li class="card-item">
+                     <svg class="rating-icon">
+                         <use xlink:href = "./img/sprite.svg#icon-checkmark "></use>
+                     </svg>Lorem, ipsum dolor.
+                 </li>
+              </ul>
+              <svg class="sidebar__icon like-icon-4">
+                <use xlink:href = "./img/sprite.svg#icon-heart"></use>
+              </svg>
+              <button class="card-btn farm-card-4"><div class="book">book now</div> <span>#120,000 per catlle</span></button>
+            </div>
+           </div>
+       </div>
+       <!-- farm booking end -->
+       <!-- gallery part start -->
+       <div class="section__5 farm-gallery">
+           <figure class="img-box box-1"><img src="./img/farm-cattle-1.jpeg" alt="" class="gallery-img"></figure>
+           <figure class="img-box box-2"><img src="./img/farm-chicken-3.jpeg" alt="" class="gallery-img"></figure>
+           <figure class="img-box box-3"><img src="./img/farm-fish-2.jpeg" alt="" class="gallery-img"></figure>
+           <figure class="img-box box-4"><img src="./img/farm-tomato-1.jpeg" alt="" class="gallery-img"></figure>
+           <figure class="img-box box-5"><img src="./img/farm-cattle-3.jpeg" alt="" class="gallery-img"></figure>
+           <figure class="img-box box-6"><img src="./img/farm-chicken-2.jpeg" alt="" class="gallery-img"></figure>
+           <figure class="img-box box-7"><img src="./img/farm-fish-4.jpeg" alt="" class="gallery-img"></figure>
+           <figure class="img-box box-8"><img src="./img/farm-pepper-2.jpeg" alt="" class="gallery-img"></figure>
+           <figure class="img-box box-9"><img src="./img/farm-cattle-4.jpeg" alt="" class="gallery-img"></figure>
+           <figure class="img-box box-10"><img src="./img/farm-cattle-2.jpeg" alt="" class="gallery-img"></figure>
+           <figure class="img-box box-11"><img src="./img/farm-chicken-5.jpeg" alt="" class="gallery-img"></figure>
+           <figure class="img-box box-12"><img src="./img/farm-pepper-3.jpeg" alt="" class="gallery-img"></figure>
+           <figure class="img-box box-13"><img src="./img/farm-fish-6.jfif" alt="" class="gallery-img"></figure>
+           <figure class="img-box box-14"><img src="./img/farm-tomato-2.jpeg" alt="" class="gallery-img"></figure>
+       </div>
+       <!-- gallery farm end -->
+   </main>
+<!-- farm end part -->
+ 
+  <!-- airport start -->
+   <main class="main-2 airport">
+    <div class="airport-section-1">
+        <div class="airport__rating">
+            <div class="airport__rating-name">akot airport</div>
+            <div class="airport__rating-star">
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+                </svg>
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+                </svg>
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+                </svg>
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+                </svg>
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+                </svg>
+            </div>
+            <div class="airport__rating-location btn-inline">
+                <svg class="location-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-location2"></use>
+                </svg>
+                <div class="text">abuja, nigeria</div>
+            </div>
+             <div class="airport__rating-value-box">
+            <p>4.7</p>
+            <span>2806 votes</span>
+        </div>
+        </div>
+    </div>
+    <!-- end of airport rating -->
+    <!-- airport advert start -->
+    <div class="airport-section-2 airport-advert">
+       <figure class="airport-advert__box airport-advert__box-1"><img src="./img/airport-2.jpeg" alt="" class="airport-advert__img"></figure>
+       <figure class="airport-advert__box airport-advert__box-2"><img src="./img/airport-1.jpeg" alt="" class="airport-advert__img"></figure>
+       <figure class="airport-advert__box airport-advert__box-3"><img src="./img/airport-3.jpeg" alt="" class="airport-advert__img"></figure>
+       <figure class="airport-advert__box airport-advert__box-4"><img src="./img/airport-4.jpeg" alt="" class="airport-advert__img"></figure>
+       <figure class="airport-advert__box airport-advert__box-5"><img src="./img/airport-10.jpeg" alt="" class="airport-advert__img"></figure>
+       <figure class="airport-advert__box airport-advert__box-6"><img src="./img/airport-6.jpeg" alt="" class="airport-advert__img"></figure>
+    </div>
+    <!-- end of airport adert -->
+    <!-- airport booking start-->
+    <div class="airport-section-3 airport-booking">
+        <h5 class="heading-5">book your flight with us now</h5>
+      <div class="airport-booking-box">
+        <div class="airport-booking-box__card">
+            <!-- card front -->
+            <div class="card-side card-side-1 card-side-1a">
+              <img src="./img/airport-9.jpeg" alt="" class="book-img">
+              <div class="book-name">
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-airplane "></use>
+                </svg>
+                regular</div>
+              <ul class="book-list">
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+              </ul>
+            </div>
+            <!-- card back -->
+            <div class="card-side card-side-2 card-side-2a">
+                <svg class="sidebar__icon like-icon-5">
+                    <use xlink:href = "./img/sprite.svg#icon-heart"></use>
+                </svg>
+              <p class="text">one flight off</p>
+              <button class="btn airport-card-1">book now</button>
+            </div>
+            <!-- card back end -->
+        </div>
+        <div class="airport-booking-box__card">
+            <!-- card front -->
+            <div class="card-side card-side-1 card-side-1b">
+              <img src="./img/airport-14.jpeg" alt="" class="book-img">
+              <div class="book-name">
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-stack"></use>
+                </svg> silver</div>
+              <ul class="book-list">
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+              </ul>
+            </div>
+            <!-- card back -->
+            <div class="card-side card-side-2 card-side-2b">
+                <svg class="sidebar__icon like-icon-6">
+                    <use xlink:href = "./img/sprite.svg#icon-heart"></use>
+                  </svg>
+              <p class="text">on and off flight</p>
+              <button class="btn airport-card-2">book now</button>
+            </div>
+            <!-- card back end -->
+        </div>
+        <div class="airport-booking-box__card">
+            <!-- card front -->
+            <div class="card-side card-side-1 card-side-1c">
+              <img src="./img/airport-12.jpeg" alt="" class="book-img">
+              <div class="book-name">
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-man-woman"></use>
+                </svg>  
+                gold</div>
+              <ul class="book-list">
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+              </ul>
+            </div>
+            <!-- card back -->
+            <div class="card-side card-side-2 card-side-2c">
+                <svg class="sidebar__icon like-icon-7">
+                    <use xlink:href = "./img/sprite.svg#icon-heart"></use>
+                  </svg>
+              <p class="text">on and off flight plus packages</p>
+              <button class="btn airport-card-3">book now</button>
+            </div>
+            <!-- card back end -->
+        </div>
+        <div class="airport-booking-box__card">
+            <!-- card front -->
+            <div class="card-side card-side-1 card-side-1d">
+              <img src="./img/airport-16.jpeg" alt="" class="book-img">
+              <div class="book-name">
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-trophy"></use>
+                </svg>  
+                platinum</div>
+              <ul class="book-list">
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+                  <li class="card-item">
+                      <svg class="rating-icon">
+                          <use xlink:href = "./img/sprite.svg#icon-checkbox-checked "></use>
+                      </svg>Lorem, ipsum dolor.
+                  </li>
+              </ul>
+            </div>
+            <!-- card back -->
+            <div class="card-side card-side-2 card-side-2d">
+                <svg class="sidebar__icon like-icon-8">
+                    <use xlink:href = "./img/sprite.svg#icon-heart"></use>
+                  </svg>
+              <p class="text">on and off flight plus packages with vacation plans</p>
+              <button class="btn airport-card-4">book now</button>
+            </div>
+            <!-- card back end -->
+        </div>
+      </div>
+    </div>
+    <!-- airport booking end -->
+    <!-- airport stories start -->
+    <div class="airport-section-4 airport-story">
+        <div class="bg-video">
+         <video  class="bg-video__content" autoplay loop muted>
+             <source src="./img/Boarding a plane.mp4" type="video/mp4">
+         </video>
+        </div>
+        <!-- video bg end -->
+        <div class="heading-5">stories from our customers</div>
+            <div class="airport-story__box">
+                <figure class="img-box">
+                    <img src="./img/friend-11.jpeg" alt="" class="story-img">
+                </figure>
+                <div class="story-content">
+                    <h2 class="heading-3">had the best trip of my life with platinum plan</h2>
+                <p class="story-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam corporis 
+                    mollitia similique minus sit repellat soluta cum ullam repudiandae laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga ducimus ut, id architecto, libero blanditiis facilis non repellendus magnam nulla placeat eos voluptate ver
+                    tis laboriosam quae facere at obcaecati ex veniam atque repudiandae ullam. Placeat totam maxime eligendi pariatur.
+                </p>
+                <div class="name">nathaniel jacob <span>may 01, 2021.</span></div>
+                </div>
+            </div>
+            <div class="airport-story__box airport-story__box-2">
+                <figure class="img-box">
+                    <img src="./img/friend-10.jpeg" alt="" class="story-img">
+                </figure>
+                <div class="story-content">
+                    <h2 class="heading-3">will always travel through akot airlines</h2>
+                <p class="story-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam corporis 
+                    mollitia similique minus sit repellat soluta cum ullam repudiandae laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga ducimus ut, id architecto, libero blanditiis facilis non repellendus magnam nulla placeat eos voluptate ver
+                    tis laboriosam quae facere at obcaecati ex veniam atque repudiandae ullam. Placeat totam maxime eligendi pariatur.
+                </p>
+                <div class="name">elizabeth smith <span>april 22, 2021.</span></div>
+                </div>
+            </div>
+            <button class="btn-inline">view more stories &rarr;</button>
+    </div>
+    <!-- airport stories end -->
+    <!-- recomend airport start -->
+    <div class="airport-section-5 airport-recommend">
+        <div class="heading-5">read on all our flight plans and visit different tours</div>
+        <p class="recommend-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Minima dicta sit impedit, quasi et hic natus possimus quaerat quae obcaecati
+              nam delectus nisi consequatur ratione quisquam earum deleniti velit eveniet 
+              nulla perferendis debitis. Voluptatibus consectetur ad inventore. Nihil earum
+         labore voluptatem aliquid, sit quae, beatae explicabo ipsam esse quisquam eligendi 
+         id mollitia, minus nemo unde! Aut laborum ut rem, animi vitae placeat! Voluptatibus
+          ipsum dolore cum et itaque perferendis iste fugiat? Alias nemo assumenda nostrum 
+        iure corporis maiores qui ipsa quas libero dicta, sunt fugit, dolorum animi ex ipsam,
+         dolores eius possimus porro nulla. Dolore doloribus est esse vel molestiae? 
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla aliquam nisi 
+        qui optio labore hic cupiditate saepe. Quos ut nostrum ratione amet assumenda 
+        tempora deleniti obcaecati, similique nihil dolor tempore blanditiis ad perspiciatis
+     voluptate dignissimos ullam cum, placeat pariatur distinctio voluptatibus. 
+     Accusamus aliquam totam error expedita molestias quam sit veritatis natus velit,
+     fuga modi, eveniet commodi nobis? Dolor nam, iure tempora, dolore officia temporibus 
+     quam in, saepe culpa sit fugit architecto impedit eos nulla. Nulla culpa ullam vel libero 
+    consectetur maxime aspernatur eum optio a unde doloremque suscipit rem quae itaque accusamus quod molestias 
+         quo qui quaerat, consequuntur nesciunt eveniet! <span class="btn-inline">read more &rarr;</span></p>
+         
+         <div class="heading-5">articles on our airline from world recognitions</div>
+         <p class="recommend-text">
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+             Dignissimos architecto, fuga nesciunt, assumenda voluptates 
+             dolorum deleniti debitis ipsum iste quaerat excepturi quas cum 
+        necessitatibus aliquam odio voluptatum voluptatem! Iste dolorum praesentium
+ libero nobis corrupti reprehenderit voluptate rem, repudiandae explicabo facilis 
+ doloribus inventore officia ipsa hic 
+illo nulla quisquam laborum ad! Ratione fugit delectus aliquam voluptatum praesentium.
+<span class="btn-inline">read more &rarr;</span>
+         </p>
+    </div>
+    <!-- reccomend airport end -->
+   </main>
+<!-- airport end -->
+
+<!-- hotel start -->
+   <main class="main-3 hotel">
+       <!-- hotel rating start -->
+       <section class="section-1 hotel-rating">
+        <div class="hotel__rating">
+            <div class="hotel__rating-name">akot hotel</div>
+            <div class="hotel__rating-star">
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+                </svg>
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+                </svg>
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+                </svg>
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+                </svg>
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+                </svg>
+            </div>
+            <div class="airport__rating-location btn-inline">
+                <svg class="location-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-location2"></use>
+                </svg>
+                <div class="text">porthacourt, nigeria</div>
+            </div>
+             <div class="airport__rating-value-box">
+            <p>4.9</p>
+            <span>3219 votes</span>
+        </div>
+        </div>
+       </section>
+       <!-- hotel rating end -->
+       <!-- hotel advert start-->
+       <section class="section-2 hotel-advert">
+           <!-- Container for the image gallery -->
+           <div class="container-box">
+                <!-- Full-width images with number text -->
+    <div class="mySlides">
+        <div class="numbertext">1 / 10</div>
+          <img src="./img/hotel-9.jpeg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">2 / 10</div>
+          <img src="./img/hotel-2.jpeg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">3 / 10</div>
+          <img src="./img/hotel-3.jpeg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">4 / 10</div>
+          <img src="./img/hotel-13.jpeg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">5 / 10</div>
+          <img src="./img/hotel-14.jpeg" style="width:100%">
+      </div>
+    
+      <div class="mySlides">
+        <div class="numbertext">6 / 10</div>
+          <img src="./img/hotel-4.jpeg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">7 / 10</div>
+          <img src="./img/hotel-6.jpeg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">8 / 10</div>
+          <img src="./img/hotel-11.jpeg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">9 / 10</div>
+          <img src="./img/hotel-8.jpeg" style="width:100%">
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">10 / 10</div>
+          <img src="./img/hotel-5.jpeg" style="width:100%">
+      </div>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+      <!-- Image text -->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+    
+      <!-- Thumbnail images -->
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="./img/hotel-9.jpeg" style="width:100%" onclick="currentSlide(1)" alt="main swimming pool ">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./img/hotel-2.jpeg" style="width:100%" onclick="currentSlide(2)" alt="royal bedroom">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./img/hotel-3.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Majestic bedroom">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./img/hotel-13.jpeg" style="width:100%" onclick="currentSlide(4)" alt="dinning section">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./img/hotel-14.jpeg" style="width:100%" onclick="currentSlide(5)" alt="gym section">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="./img/hotel-4.jpeg" style="width:100%" onclick="currentSlide(6)" alt="central reception">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="./img/hotel-6.jpeg" style="width:100%" onclick="currentSlide(7)" alt="royal-majestic bathroom">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="./img/hotel-11.jpeg" style="width:100%" onclick="currentSlide(8)" alt="booking reception">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="./img/hotel-8.jpeg" style="width:100%" onclick="currentSlide(9)" alt="relaxation centre">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="./img/hotel-5.jpeg" style="width:100%" onclick="currentSlide(10)" alt="summer cool view">
+        </div>
+      </div>
+           </div>
+       </section>
+       <!-- hotel advert end -->
+       <!-- hotel about start -->
+       <section class="section-3 hotel-about">
+           <div class="heading-5">our rooms and special services</div>
+           <div class="hotel-about__box">
+            <div class="hotel-about__item">
+                <div class="heading-3">
+                    <svg class="rating-icon">
+                        <use xlink:href = "./img/sprite.svg#icon-database"></use>
+                    </svg>
+                    regular room
+                </div>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Assumenda repellat, esse velit ipsam consequuntur sed.<span class="btn-inline">read more &rarr;</span></p>
+            </div>
+            <div class="hotel-about__item">
+                <div class="heading-3">
+                    <svg class="rating-icon">
+                        <use xlink:href = "./img/sprite.svg#icon-man-woman"></use>
+                    </svg>
+                    royal room
+                </div>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Assumenda repellat, esse velit ipsam consequuntur sed.<span class="btn-inline">read more &rarr;</span></p>
+            </div>
+            <div class="hotel-about__item">
+                <div class="heading-3">
+                    <svg class="rating-icon">
+                        <use xlink:href = "./img/sprite.svg#icon-stack"></use>
+                    </svg>
+                    majestic room
+                </div>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Assumenda repellat, esse velit ipsam consequuntur sed.<span class="btn-inline">read more &rarr;</span></p>
+            </div>
+            <div class="hotel-about__item">
+                <div class="heading-3">
+                    <svg class="rating-icon">
+                        <use xlink:href = "./img/sprite.svg#icon-trophy"></use>
+                    </svg>
+                    royal-majestic room
+                </div>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Assumenda repellat, esse velit ipsam consequuntur sed.<span class="btn-inline">read more &rarr;</span></p>
+            </div>
+            <div class="hotel-about__item">
+                <div class="heading-3">
+                    <svg class="rating-icon">
+                        <use xlink:href = "./img/sprite.svg#icon-spoon-knife"></use>
+                    </svg>
+                    dining service
+                </div>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Assumenda repellat, esse velit ipsam consequuntur sed.<span class="btn-inline">read more &rarr;</span></p>
+            </div>
+            <div class="hotel-about__item">
+                <div class="heading-3">
+                    <svg class="rating-icon">
+                        <use xlink:href = "./img/sprite.svg#icon-plus"></use>
+                    </svg>
+                    long stay plan
+                </div>
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Assumenda repellat, esse velit ipsam consequuntur sed. <span class="btn-inline">read more &rarr;</span></p>
+            </div>
+           </div>
+       </section>
+       <!-- hotel about end -->
+       <!-- hotel bookings start -->
+       <section class="section-4 hotel-booking">
+        <div class="heading-5">book your choice room and services</div>
+        <div class="hotel-booking__box">
+            <form action="#" class="hotel-booking__form">
+                <div class="form-group">
+                    <label for="name" class="input-label">name</label>
+                    <input type="text" class="form-input" placeholder="full name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="text" class="input-label">phone number</label>
+                    <input type="text" class="form-input" placeholder="number" id="number">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="input-label">email</label>
+                    <input type="email" class="form-input" placeholder="full email" id="email">
+                </div>
+                <div class="form-group form-group-1">
+                    <div class="gender-name">gender</div>
+                    <div class="gender-box">
+                        <input type="radio" class="gender" id="gender1" name="gendername">
+                        <label for="gender1" class="checkbox-label">male</label>
+                   
+                        <input type="radio" class="gender" id="gender2" name="gendername">
+                        <label for="gender2" class="checkbox-label">female</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="room" class="input-label">select room type</label>
+                    <select name="room" id="room" class="form-select">
+                        <option value="room" class="form-option">room type</option>
+                        <option value="room" class="form-option">regular</option>
+                        <option value="room" class="form-option">royal</option>
+                        <option value="room" class="form-option">majestic</option>
+                        <option value="room" class="form-option">royal-majestic</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="no-of-days" class="input-label">number of rooms</label>
+                    <input type="text" class="form-input" placeholder="number of rooms" id="no-of-days">
+                </div>
+                <div class="form-group">
+                    <label for="number1" class="input-label">duration time</label>
+                    <input type="text" class="form-input" placeholder="duration" id="number1">
+                </div>
+                <div class="form-group form-group-1">
+                    <div class="pay_type-name">payment type</div>
+                    <div class="pay_type-box">
+                        <input type="radio" class="pay_type" id="pay_type1" name="pay_typename">
+                        <label for="pay_type1" class="checkbox-label">credit Card</label>
+                   
+                        <input type="radio" class="pay_type" id="pay_type2" name="pay_typename">
+                        <label for="pay_type2" class="checkbox-label">payPal</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button class="btn"><p>submit</p><span>we have free room(s) for your selection</span></button>
+                </div>
+            </form>
+        </div>
+    
+       </section>
+       <!-- hotel bookings end -->
+       <!-- gallery hotel -->
+       <section class="section-5">
+            <!-- gallery part start -->
+       <div class="section__5 hotel-gallery">
+        <figure class="img-box box-1"><img src="./img/hotel-2.jpeg" alt="" class="gallery-img"></figure>
+        <figure class="img-box box-2"><img src="./img/hotel-4.jpeg" alt="" class="gallery-img"></figure>
+        <figure class="img-box box-3"><img src="./img/hotel-6.jpeg" alt="" class="gallery-img"></figure>
+        <figure class="img-box box-4"><img src="./img/hotel-13.jpeg" alt="" class="gallery-img"></figure>
+        <figure class="img-box box-5"><img src="./img/hotel-8.jpeg" alt="" class="gallery-img"></figure>
+        <figure class="img-box box-6"><img src="./img/hotel-9.jpeg" alt="" class="gallery-img"></figure>
+        <figure class="img-box box-7"><img src="./img/hotel-7.jpeg" alt="" class="gallery-img"></figure>
+        <figure class="img-box box-8"><img src="./img/hotel-1.jpeg" alt="" class="gallery-img"></figure>
+        <figure class="img-box box-9"><img src="./img/hotel-12.jpeg" alt="" class="gallery-img"></figure>
+        <figure class="img-box box-10"><img src="./img/hotel-10.jpeg" alt="" class="gallery-img"></figure>
+        <figure class="img-box box-11"><img src="./img/hotel-5.jpeg" alt="" class="gallery-img"></figure>
+        <figure class="img-box box-12"><img src="./img/hotel-3.jpeg" alt="" class="gallery-img"></figure>
+        <figure class="img-box box-13"><img src="./img/hotel-11.jpeg" alt="" class="gallery-img"></figure>
+        <figure class="img-box box-14"><img src="./img/hotel-14.jpeg" alt="" class="gallery-img"></figure>
+    </div>
+    <!-- gallery hotel end -->
+       </section>
+       <!-- hotel gallery end -->
+       <!-- comment hotel -->
+       <section class="section-6 hotel-comment">
+        <div class="heading-5">comments from customers</div>
+        <div class="hotel-comment__box">
+            <figure class="img-box">
+                <img src="./img/friend-2.jpeg" alt="" class="story-img">
+            </figure>
+            <div class="story-content">
+                <h2 class="heading-3">majestic always with akot hotel</h2>
+            <p class="story-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam corporis 
+                mollitia similique minus sit repellat soluta cum ullam repudiandae laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga ducimus ut, id architecto, libero blanditiis facilis non repellendus magnam nulla placeat eos voluptate ver
+                tis laboriosam quae facere at obcaecati ex veniam atque repudiandae ullam. Placeat totam maxime eligendi pariatur.
+            </p>
+            <div class="name">kotlin cater <span>may 01, 2021.</span></div>
+            </div>
+        </div>
+        <div class="hotel-comment__box hotel-comment__box-2">
+            <figure class="img-box">
+                <img src="./img/friend-4.jpg" alt="" class="story-img">
+            </figure>
+            <div class="story-content">
+                <h2 class="heading-3">akot hotel is next to paradise</h2>
+            <p class="story-text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam corporis 
+                mollitia similique minus sit repellat soluta cum ullam repudiandae laboriosam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fuga ducimus ut, id architecto, libero blanditiis facilis non repellendus magnam nulla placeat eos voluptate ver
+                tis laboriosam quae facere at obcaecati ex veniam atque repudiandae ullam. Placeat totam maxime eligendi pariatur.
+            </p>
+            <div class="name">lizzie kate<span>april 22, 2021.</span></div>
+            </div>
+        </div>
+        <button class="btn-inline">view more comments &rarr;</button>
+       </section>
+       <!-- comment hotel ends -->
+   </main>
+   <!-- hotel ends -->
+
+   <!-- petrol start -->
+   <main class="main-4 petrol">
+         <!-- petrol rating -->
+    <section class="section__1">
+        <div class="petrol__rating">
+            <div class="petrol__rating-name">akot fuel</div>
+            <div class="petrol__rating-star">
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+                </svg>
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+                </svg>
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+                </svg>
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+                </svg>
+                <svg class="rating-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-star-full "></use>
+                </svg>
+            </div>
+            <div class="petrol__rating-location btn-inline">
+                <svg class="location-icon">
+                    <use xlink:href = "./img/sprite.svg#icon-location2"></use>
+                </svg>
+                <div class="text">ibadan, nigeria</div>
+            </div>
+             <div class="petrol__rating-value-box">
+            <p>4.5</p>
+            <span>5086 votes</span>
+        </div>
+        </div>
+        </section>
+        <!--petrol rating end -->
+        <!-- petrol addvert -->
+       <section class="section-2 petrol-advert">
+           <div class="petrol-advert__box">
+           <figure class="box-1"><img src="./img/petrol-5.jpeg" alt="petrol picture" class="petrol-advert__img"></figure>
+           <figure class="box-2"><img src="./img/petrol-6.jpeg" alt="petrol picture" class="petrol-advert__img"></figure>
+           <figure class="box-3"><img src="./img/petrol-5.jpeg" alt="petrol picture" class="petrol-advert__img"></figure>
+           <figure class="box-4"><img src="./img/petrol-7.jpeg" alt="petrol picture" class="petrol-advert__img"></figure>
+           <figure class="box-5"><img src="./img/petrol-4.jpeg" alt="petrol picture" class="petrol-advert__img"></figure>
+           <figure class="box-6"><img src="./img/petrol-3.jpeg" alt="petrol picture" class="petrol-advert__img"></figure>
+           <figure class="box-7"><img src="./img/petrol-2.jpeg" alt="petrol picture" class="petrol-advert__img"></figure>
+           <figure class="box-8"><img src="./img/petrol-3.jpeg" alt="petrol picture" class="petrol-advert__img"></figure>
+           </div>
+       </section>
+       <!-- end of petrol advert -->
+       <!-- petrol about start -->
+       <section class="section-3 petrol__about">
+           <div class="heading-5">
+            <svg class="petrol-icon">
+                <use xlink:href = "./img/sprite.svg#icon-truck"></use>
+            </svg>   
+            all about our fuel </div>
+           <div class="petrol__about-box">
+            <table class="petrol-table" >
+               <thead>
+                   <tr>
+                       <th>diesel</th>
+                       <th>petrol</th>
+                       <th>kerosene</th>
+                       <th>gas</th>
+                   </tr>
+               </thead>
+               <tbody>
+                   <tr>
+                       <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, eligendi.</td>
+                       <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id voluptatem excepturi laudantium.</td>
+                       <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus!</td>
+                       <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, libero quam!</td>
+                   </tr>
+                   <tr>
+                       <td>Lorem ipsum dolor sit amet.</td>
+                       <td>Lorem ipsum dolor sit amet consectetur.</td>
+                       <td>Lorem ipsum dolor sit.</td>
+                       <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                   </tr>
+                   <tr>
+                    <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, eligendi.</td>
+                    <td>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id voluptatem excepturi laudantium.</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus!</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, libero quam!</td>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor sit amet.</td>
+                    <td>Lorem ipsum dolor sit amet consectetur.</td>
+                    <td>Lorem ipsum dolor sit.</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing.</td>
+                </tr>
+               </tbody>
+            </table>
+           </div>
+       </section>
+       <!-- petrol about end -->
+       <section class="section-4">
+           <div class="heading-5">thanks for checking this sites, we do have a lot more to show you, enjoy yourself while navigating in this website</div>
+       </section>
+       <section class="section-5"></section>
+   </main>
+   <!-- petrol end -->
+
+   <!-- footer part -->
+   <footer class="footer">
+       <div class="footer__box-1">
+           <div class="footer__items">request proposal</div>
+           <div class="footer__items">come work with us</div>
+           <div class="footer__items">download our app</div>
+           <div class="footer__items">find your needs</div>
+           <div class="footer__items">contact us</div>
+       </div>
+       <div class="footer__box-2">
+           <svg class="footer__icon footer__icon-1">
+            <use xlink:href = "./img/sprite.svg#icon-twitter "></use>
+           </svg>
+           <svg class="footer__icon footer__icon-2">
+            <use xlink:href = "./img/sprite.svg#icon-whatsapp "></use>
+           </svg>
+           <svg class="footer__icon footer__icon-3">
+            <use xlink:href = "./img/sprite.svg#icon-facebook2 "></use>
+           </svg>
+           <svg class="footer__icon footer__icon-4">
+            <use xlink:href = "./img/sprite.svg#icon-youtube "></use>
+           </svg>
+       </div>
+       <div class="footer__box-3">
+           <p class="footer__text">Built by <span>AYENI KEHINDE OLUWATIMILEHIN (AKOT).</span>Thanks for checking our site</p>
+       </div>
+   </footer>
+   <!-- footer end -->
+
+
+   <!-- javascript link -->
+   <script src="./project.js"></script>
+</body>
+</html>
