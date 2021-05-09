@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 // notify message
 document.querySelector('.notification-box-2').addEventListener('click', function(){
-  document.querySelector('.notify-box').classList.toggle('display-pop-msg');
+  document.querySelector('.notify-box').classList.add('display-pop-msg');
   
    setTimeout(function(){ document.querySelector('.notify-box').classList.remove('display-pop-msg');}, 10000);
 })
