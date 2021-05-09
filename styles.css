@@ -2396,3 +2396,14 @@ body {
 .display-pop-msg{
     display: block !important;
 }
+.notify-box .text{
+        margin-bottom: 1rem;
+    }
+@media only screen and (max-width: 38em;){
+  .notify-box{
+     top: 80%;
+        right: 5vw;
+        width: 90vw;
+  }};
+  
+  
