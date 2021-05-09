@@ -1,5 +1,15 @@
 
+// event on load
+document.addEventListener('DOMContentLoaded', function(){
+  // alert('yes')
+ 
 
+  setTimeout(function(){ document.querySelector('.notify-box').style.display = 'none';}, 10000);
+});
+// notify message
+document.querySelector('.notification-box-2').addEventListener('click', function(){
+  document.querySelector('.notify-box').classList.toggle('display-pop-msg');
+})
 
 //menu bar function to remove/ add side bar and to give content full length
 
