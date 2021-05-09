@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', function(){
 // notify message
 document.querySelector('.notification-box-2').addEventListener('click', function(){
   document.querySelector('.notify-box').classList.toggle('display-pop-msg');
+  
+   setTimeout(function(){ document.querySelector('.notify-box').classList.remove('display-pop-msg');}, 10000);
 })
 
 //menu bar function to remove/ add side bar and to give content full length
