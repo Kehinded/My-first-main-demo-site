@@ -2370,4 +2370,29 @@ body {
     font-family: $font-heading;
     letter-spacing: .5rem;
 }
+.notify-box{
+    background-color: #fff;
+    color: red;
+    box-shadow: .3rem .3rem .5rem rgba(#000, .6), -.3rem -.3rem .5rem rgba(#000, .6);
+    padding: 1rem;
+    position: absolute;
+    top: 97%;
+    right: 6rem;
+    z-index: 50;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 1rem;
 
+    @media only screen and (max-width:38em){
+        top: 80%;
+        right: 5vw;
+        width: 90vw;
+    }
+    .text{
+        margin-bottom: 1rem;
+    }
+}
+.display-pop-msg{
+    display: block !important;
+}
