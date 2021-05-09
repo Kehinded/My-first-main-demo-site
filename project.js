@@ -245,17 +245,19 @@ document.querySelector('.form-button-submit').addEventListener('click', function
   }
 // success submission
   else{
-    //submission start
+     //submission start
        document.querySelector('.loader-img').style.display = 'block';
+       document.querySelector('.book-list-form').style.display = 'none';
        clearListItems('LIST SUBMITING');
       //  submission end
        setTimeout(function(){ 
         document.querySelector('.loader-img').style.display = 'none';
+        document.querySelector('.book-list-form').style.display = 'block';
         userEmail.value = '';
         userNumber.value = '';
         userLastName.value = '';
         userFirstName.value = '';
-         document.querySelector('.loader-img').innerHTML = '';
+         document.querySelector('.booking-body').innerHTML = '';
          clearListItems('LIST SUBMITTED')
          showMessageSubmit(`HELLO!!!  ${userFirstNameVal} ${userLastNameVal} we got your list order, other processing required details will be sent to '${userEmailVal}' or "${userNumberVal}" THANK YOU`)
         }, 5000);
