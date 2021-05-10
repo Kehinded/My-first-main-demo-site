@@ -114,6 +114,19 @@
 .border-red {
   border: .2rem solid red !important; }
 
+.section__4 .heading-6, .notify-book-list-msg {
+  color: red;
+  margin: 2rem 0rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  height: auto;
+  font-size: 1.6rem;
+  font-family: "Monoton", cursive, sans-serif;
+  letter-spacing: .5rem; }
+
+.display-pop-msg {
+  display: block !important; }
+
 *,
 *::before,
 *::after {
@@ -344,7 +357,7 @@ body {
     .header {
       flex-direction: column; } }
   .header__detail-box {
-    background-image: linear-gradient(rgba(19, 46, 89, 0.9), rgba(19, 46, 89, 0.9)), url(./img/hotel-9.jpeg);
+    background-image: linear-gradient(rgba(19, 46, 89, 0.9), rgba(19, 46, 89, 0.9)), url(/img/hotel-9.jpeg);
     background-size: cover;
     background-position: center;
     flex: 1;
@@ -354,6 +367,10 @@ body {
     align-items: center;
     grid-column-gap: 5rem;
     justify-items: center; }
+    @media only screen and (max-width: 37rem) {
+      .header__detail-box .header__icon {
+        width: 6rem;
+        height: 6rem; } }
     @media only screen and (max-width: 50em) {
       .header__detail-box {
         grid-row-gap: 3rem; } }
@@ -407,6 +424,10 @@ body {
         justify-content: space-between;
         align-items: center;
         width: 100%; } }
+    @media only screen and (max-width: 19rem) {
+      .header__owner-box {
+        padding: 1rem;
+        grid-gap: 1rem; } }
     .header__owner-box .owner-about {
       display: flex;
       flex-direction: column;
@@ -459,6 +480,9 @@ body {
       .header__owner-icons {
         flex-direction: column;
         justify-content: space-between; } }
+    @media only screen and (max-width: 19rem) {
+      .header__owner-icons {
+        margin-left: -1.5rem; } }
     .header__owner-icons .notification-box-1 {
       position: relative;
       cursor: pointer; }
@@ -503,6 +527,10 @@ body {
       width: 4rem;
       height: 4rem;
       fill: #e6c807; }
+      @media only screen and (max-width: 19rem) {
+        .header__owner-icons .notification-icon {
+          width: 3rem;
+          height: 3rem; } }
 
 .booking-box {
   position: absolute;
@@ -542,8 +570,7 @@ body {
       right: -3vw; } }
   @media only screen and (max-width: 25em) {
     .booking-box {
-      width: 99vw;
-      right: -5vw;
+      width: 100vw;
       padding: 2rem .5rem; } }
 
 .booking-wrapper {
@@ -787,12 +814,28 @@ body {
   background-color: #132e59;
   opacity: .8;
   display: none; }
-.section__4 .heading-4{
-    color: red;
-    margin: 2rem 0rem;
-    font-size: 1.8rem;
-    font-weight: 700;
-}
+
+.notify-box {
+  background-color: #fff;
+  color: red;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.6), -0.3rem -0.3rem 0.5rem rgba(0, 0, 0, 0.6);
+  padding: 1rem;
+  position: absolute;
+  top: 97%;
+  right: 6rem;
+  z-index: 50;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 1rem; }
+  @media only screen and (max-width: 38em) {
+    .notify-box {
+      top: 80%;
+      right: 5vw;
+      width: 90vw; } }
+  .notify-box .text {
+    margin-bottom: 1rem; }
+
 .main-1 {
   background-color: #ecf0f3;
   grid-column: full-start / full-end;
@@ -806,13 +849,16 @@ body {
   @media only screen and (max-width: 56.25em) {
     .main-1 {
       grid-row: 3/ span 4; } }
+  @media only screen and (max-width: 19rem) {
+    .main-1 {
+      padding: .5rem; } }
 
 .farm-advert {
   display: flex;
   margin-bottom: 4rem;
   padding: 2rem 1rem;
   box-shadow: inset 0.5rem 0.5rem 0.6rem rgba(0, 0, 0, 0.6), inset -0.5rem -0.5rem 0.6rem rgba(0, 0, 0, 0.6); }
-  @media only screen and (max-width: 37em) {
+  @media only screen and (max-width: 38em) {
     .farm-advert {
       padding: .5rem 1rem; } }
   .farm-advert-1 {
@@ -1201,6 +1247,9 @@ body {
     .main-3 {
       grid-row: 3/ span 4;
       grid-column: full-start / full-end; } }
+  @media only screen and (max-width: 19rem) {
+    .main-3 {
+      padding: .5rem; } }
 
 .hotel-rating .hotel__rating {
   display: flex;
@@ -1406,16 +1455,6 @@ body {
       .hotel-about__item .text span {
         text-transform: uppercase;
         margin-left: 2rem; }
-
-  .section__4 .heading-6 {
-  color: red;
-  margin: 2rem 0rem;
-  font-size: 1.8rem;
-  font-weight: 700;
-  height: auto;
-  font-size: 1.6rem;
-  font-family: "Monoton", cursive, sans-serif;
-  letter-spacing: .5rem; }
 
 .hotel-booking {
   margin-bottom: 8rem;
@@ -1759,6 +1798,9 @@ body {
     .main-2 {
       grid-row: 3/ span 4;
       grid-column: full-start / full-end; } }
+  @media only screen and (max-width: 19rem) {
+    .main-2 {
+      padding: .5rem; } }
 
 .airport__rating {
   display: flex;
@@ -2127,6 +2169,9 @@ body {
     .main-4 {
       grid-row: 3/ span 4;
       grid-column: full-start / full-end; } }
+  @media only screen and (max-width: 19rem) {
+    .main-4 {
+      padding: .5rem; } }
 
 .petrol__rating {
   display: flex;
@@ -2285,11 +2330,14 @@ body {
     @media only screen and (max-width: 19rem) {
       .petrol__about-box {
         width: 100%;
-        font-size: 1.3rem; } }
+        font-size: 1rem; } }
     .petrol__about-box .petrol-table th {
       text-transform: uppercase;
       color: white;
       padding: 2vw; }
+      @media only screen and (max-width: 19rem) {
+        .petrol__about-box .petrol-table th {
+          padding: .5vw; } }
       .petrol__about-box .petrol-table th:not(:last-child) {
         border-right: 0.2rem solid #e6c807; }
     .petrol__about-box .petrol-table td {
@@ -2360,53 +2408,3 @@ body {
     .footer__icon:hover {
       transform: scale(1.3);
       cursor: pointer; }
-.section__4 .heading-6, .notify-book-list-msg{
-    color: red;
-    margin: 2rem 0rem;
-    font-size: 1.8rem;
-    font-weight: 700;
-    height: auto;
-    font-size: 1.6rem;
-    font-family: $font-heading;
-    letter-spacing: .5rem;
-}
-.notify-box{
-    background-color: #fff;
-    color: red;
-    box-shadow: .3rem .3rem .5rem rgba(#000, .6), -.3rem -.3rem .5rem rgba(#000, .6);
-    padding: 1rem;
-    position: absolute;
-    top: 97%;
-    right: 6rem;
-    z-index: 50;
-    font-size: 1.6rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    border-radius: 1rem;
-
-    @media only screen and (max-width:38em){
-        top: 80%;
-        right: 5vw;
-        width: 90vw;
-    }
-    .text{
-        margin-bottom: 1rem;
-    }
-}
-.display-pop-msg{
-    display: block !important;
-}
-.notify-box .text{
-        margin-bottom: 1rem;
-    }
-.notify-box {
-         box-shadow: .3rem .3rem .5rem rgba(0,0,0, .6), -.3rem -.3rem .5rem rgba(0,0,0, .6);
-    }
-@media only screen and (max-width: 38em;){
-  .notify-box{
-     top: 80%;
-        right: 5vw;
-        width: 90vw;
-  }};
-  
-  
