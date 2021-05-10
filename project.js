@@ -4,13 +4,13 @@ document.addEventListener('DOMContentLoaded', function(){
   // alert('yes')
  
 
-  setTimeout(function(){ document.querySelector('.notify-box').style.display = 'none';}, 10000);
+  setTimeout(function(){ document.querySelector('.notify-box').style.display = 'none';}, 8000);
 });
 // notify message
 document.querySelector('.notification-box-2').addEventListener('click', function(){
   document.querySelector('.notify-box').classList.add('display-pop-msg');
   
-   setTimeout(function(){ document.querySelector('.notify-box').classList.remove('display-pop-msg');}, 10000);
+   setTimeout(function(){ document.querySelector('.notify-box').classList.remove('display-pop-msg');}, 8000);
 })
 
 //menu bar function to remove/ add side bar and to give content full length
