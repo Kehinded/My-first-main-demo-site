@@ -1490,6 +1490,7 @@ body {
       font-size: 1.6rem;
       text-transform: uppercase;
       font-weight: 700; }
+
       @media only screen and (max-width: 37.5em) {
         .hotel-booking__form .form-group .gender-name {
           margin-right: auto;
