@@ -138,7 +138,7 @@ html {
       font-size: 50%; } }
 
 body {
-  background-color: #132e59;
+  background-color: #023045;
   box-sizing: border-box;
   color: #6D5D4B;
   font-size: 1.5rem;
@@ -186,23 +186,23 @@ body {
 
 @keyframes bg-change {
   0% {
-    background-image: linear-gradient(rgba(19, 46, 89, 0.85), rgba(19, 46, 89, 0.85)), url(./img/farm-fish-1.jpeg);
+    background-image: linear-gradient(rgba(2, 48, 69, 0.85), rgba(2, 48, 69, 0.85)), url(./img/farm-fish-1.jpeg);
     background-size: cover;
     background-position: center; }
   25% {
-    background-image: linear-gradient(rgba(19, 46, 89, 0.85), rgba(19, 46, 89, 0.85)), url(./img/farm-pepper-3.jpeg);
+    background-image: linear-gradient(rgba(2, 48, 69, 0.85), rgba(2, 48, 69, 0.85)), url(./img/farm-pepper-3.jpeg);
     background-size: cover;
     background-position: center; }
   50% {
-    background-image: linear-gradient(rgba(19, 46, 89, 0.85), rgba(19, 46, 89, 0.85)), url(./img/farm-chicken-1.jpeg);
+    background-image: linear-gradient(rgba(2, 48, 69, 0.85), rgba(2, 48, 69, 0.85)), url(./img/farm-chicken-1.jpeg);
     background-size: cover;
     background-position: center; }
   75% {
-    background-image: linear-gradient(rgba(19, 46, 89, 0.85), rgba(19, 46, 89, 0.85)), url(./img/farm-cattle-3.jpeg);
+    background-image: linear-gradient(rgba(2, 48, 69, 0.85), rgba(2, 48, 69, 0.85)), url(./img/farm-cattle-3.jpeg);
     background-size: cover;
     background-position: center; }
   100% {
-    background-image: linear-gradient(rgba(19, 46, 89, 0.85), rgba(19, 46, 89, 0.85)), url(./img/farm-fish-1.jpeg);
+    background-image: linear-gradient(rgba(2, 48, 69, 0.85), rgba(2, 48, 69, 0.85)), url(./img/farm-fish-1.jpeg);
     background-size: cover;
     background-position: center; } }
 
@@ -299,7 +299,7 @@ body {
 .sidebar {
   background-color: #a89205;
   grid-row: 2/ span 4;
-  border-right: 1px solid #132e59;
+  border-right: 1px solid #023045;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -317,7 +317,7 @@ body {
         justify-content: space-between; } }
   .sidebar__item {
     text-transform: uppercase;
-    border-bottom: 1px solid #132e59;
+    border-bottom: 1px solid #023045;
     padding: 2rem 0;
     position: relative;
     transition: all .5s;
@@ -343,7 +343,7 @@ body {
     left: 0;
     width: 1rem;
     height: 100%;
-    background-color: #132e59;
+    background-color: #023045;
     z-index: 10;
     align-self: flex-start;
     transform: scaleY(0);
@@ -359,7 +359,7 @@ body {
   .sidebar__text {
     margin-top: auto;
     text-align: center;
-    color: #132e59; }
+    color: #023045; }
     @media only screen and (max-width: 56.25em) {
       .sidebar__text {
         display: none; } }
@@ -368,7 +368,7 @@ body {
   grid-column: sidebar-start / full-end;
   position: relative;
   display: flex;
-  border-bottom: 1px solid #132e59; }
+  border-bottom: 1px solid #023045; }
   @media only screen and (max-width: 56.25em) {
     .header {
       grid-column: full-start / full-end;
@@ -377,7 +377,7 @@ body {
     .header {
       flex-direction: column; } }
   .header__detail-box {
-    background-image: linear-gradient(rgba(19, 46, 89, 0.9), rgba(19, 46, 89, 0.9)), url(./img/hotel-9.jpeg);
+    background-image: linear-gradient(rgba(2, 48, 69, 0.8), rgba(2, 48, 69, 0.8)), url(/img/hotel-9.jpeg);
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -416,7 +416,7 @@ body {
   .header__icon-1 {
     height: 3.5rem;
     width: 3.5rem;
-    fill: #132e59;
+    fill: #023045;
     transition: all .2s; }
     .header__icon-1-box {
       display: none;
@@ -440,7 +440,7 @@ body {
   .header__owner-box {
     margin-left: auto;
     flex: 0 0 30%;
-    background-color: #132e59;
+    background-color: #023045;
     padding: 2rem;
     display: grid;
     grid-gap: 2rem;
@@ -606,7 +606,7 @@ body {
   border-radius: 1rem;
   padding: 2rem 0rem; }
   .booking-wrapper .heading-5 {
-    color: #132e59; }
+    color: #023045; }
     @media only screen and (max-width: 19em) {
       .booking-wrapper .heading-5 {
         font-size: 2rem; } }
@@ -619,7 +619,7 @@ body {
     text-transform: uppercase;
     padding: 2rem;
     font-weight: 700;
-    color: #132e59;
+    color: #023045;
     font-size: 1.7rem; }
     @media only screen and (max-width: 38em) {
       .booking-table th {
@@ -631,7 +631,7 @@ body {
     text-align: center;
     padding: 1rem 0rem;
     font-weight: 700;
-    color: #132e59;
+    color: #023045;
     font-size: 1.6rem;
     text-transform: capitalize; }
     @media only screen and (max-width: 19em) {
@@ -658,7 +658,7 @@ body {
 
 .total-amount-box {
   text-transform: uppercase;
-  color: #132e59;
+  color: #023045;
   font-weight: 700;
   font-size: 1.7rem;
   margin: 2rem 0rem 1rem 1rem;
@@ -668,7 +668,7 @@ body {
   .total-amount-box .total-icon {
     width: 3rem;
     height: 3rem;
-    fill: #132e59;
+    fill: #023045;
     margin-left: 2rem; }
 
 .total-amount-value {
@@ -676,7 +676,7 @@ body {
   border-radius: 1rem;
   padding: 1.5rem 3rem;
   font-size: 2rem;
-  color: #132e59;
+  color: #023045;
   font-weight: 700;
   margin-left: 2rem; }
 
@@ -699,7 +699,7 @@ body {
       display: inline-block;
       text-transform: uppercase;
       font-size: 1.7rem;
-      color: #132e59;
+      color: #023045;
       font-weight: 700;
       margin-right: 1rem; }
     .book-list-form .form-group .form-input {
@@ -735,7 +735,7 @@ body {
       font-size: 1.5rem;
       font-weight: 700;
       text-transform: uppercase;
-      color: #132e59;
+      color: #023045;
       box-shadow: 0.4rem 0.4rem 0.6rem rgba(0, 0, 0, 0.6), -0.4rem -0.4rem 0.6rem rgba(255, 255, 255, 0.8);
       border-radius: 3rem;
       cursor: pointer;
@@ -778,7 +778,8 @@ body {
       left: 50%;
       width: 95vw; } }
   .about-us-box .heading-5 {
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    color: #023045; }
   .about-us-box .underline {
     width: 50%;
     height: .7rem;
@@ -790,7 +791,7 @@ body {
     line-height: 2;
     letter-spacing: .1rem;
     font-weight: 700;
-    color: #132e59; }
+    color: #023045; }
     .about-us-box .text span {
       background-color: #ecf0f3;
       padding: 1rem .5rem;
@@ -841,7 +842,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: 50;
-  background-color: #132e59;
+  background-color: #023045;
   opacity: .8;
   display: none; }
 
@@ -945,7 +946,7 @@ body {
     border-radius: .5rem;
     box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4); }
     .card__side-front {
-      background-color: #132e59;
+      background-color: #023045;
       animation: advert-rotate-1 45s infinite;
       animation-fill-mode: both;
       animation-timing-function: cubic-bezier(1, 1, 1, 1);
@@ -996,7 +997,7 @@ body {
     font-family: "Old Standard TT", serif, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    color: #132e59;
+    color: #023045;
     margin-right: 1rem; }
     @media screen and (max-width: 44em) {
       .farm__rating-name {
@@ -1011,7 +1012,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: #132e59;
+    color: #023045;
     cursor: pointer; }
     @media only screen and (max-width: 19em) {
       .farm__rating-location {
@@ -1024,7 +1025,7 @@ body {
       font-weight: 700; }
   .farm__rating-value-box {
     margin-left: 2rem;
-    background-color: #132e59;
+    background-color: #023045;
     align-self: stretch;
     padding: 0rem 1rem;
     display: flex;
@@ -1104,12 +1105,12 @@ body {
       .farm-about__feedback .detail-box .name {
         font-size: 2rem;
         text-transform: uppercase;
-        color: #132e59;
+        color: #023045;
         font-weight: 700; }
       .farm-about__feedback .detail-box .text {
         color: #e6c807; }
         .farm-about__feedback .detail-box .text span {
-          color: #132e59;
+          color: #023045;
           font-weight: 700; }
   .farm-about__recomend-box {
     display: flex;
@@ -1117,7 +1118,7 @@ body {
     justify-content: flex-end;
     padding: 0 1rem; }
     .farm-about__recomend-box .text {
-      color: #132e59;
+      color: #023045;
       font-size: 1.6rem;
       color: #fff;
       font-weight: 700; }
@@ -1145,7 +1146,7 @@ body {
       height: 20rem;
       grid-row: 1/2; }
     .farm-booking-item .card-name {
-      background-color: #132e59;
+      background-color: #023045;
       color: #fff;
       font-size: 1.6rem;
       text-align: center;
@@ -1162,14 +1163,14 @@ body {
         display: flex;
         align-items: center; }
         .farm-booking-item .card-list .card-item .rating-icon {
-          fill: #132e59;
+          fill: #023045;
           margin-right: .5rem; }
     .farm-booking-item .card-btn {
       border: none;
       cursor: pointer;
       padding: 1.3rem;
       background-color: #a89205;
-      color: #132e59;
+      color: #023045;
       font-size: 1.6rem;
       text-transform: uppercase;
       font-weight: 700;
@@ -1193,7 +1194,7 @@ body {
       .farm-booking-item .card-btn:hover span {
         transform: translateY(0%); }
     .farm-booking-item .sidebar__icon {
-      fill: #132e59;
+      fill: #023045;
       width: 3rem;
       height: 3rem;
       justify-self: flex-end;
@@ -1289,7 +1290,7 @@ body {
     font-family: "Old Standard TT", serif, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    color: #132e59;
+    color: #023045;
     margin-right: 1rem; }
     @media screen and (max-width: 44em) {
       .hotel-rating .hotel__rating-name {
@@ -1307,7 +1308,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: #132e59;
+    color: #023045;
     cursor: pointer; }
     @media only screen and (max-width: 19em) {
       .hotel-rating .hotel__rating-location {
@@ -1320,7 +1321,7 @@ body {
       font-weight: 700; }
   .hotel-rating .hotel__rating-value-box {
     margin-left: 2rem;
-    background-color: #132e59;
+    background-color: #023045;
     align-self: stretch;
     padding: 0rem 1rem;
     display: flex;
@@ -1334,7 +1335,7 @@ body {
       align-self: center; }
 
 .hotel-advert {
-  background-color: #132e59;
+  background-color: #023045;
   padding: 1rem 0rem 2rem 0rem;
   border-radius: 1rem; }
 
@@ -1404,7 +1405,7 @@ body {
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: #132e59;
+  background-color: #023045;
   padding: 1rem 1.6rem;
   color: #fff;
   font-weight: 700;
@@ -1465,7 +1466,7 @@ body {
         padding: 1rem;
         margin: 0rem auto; } }
     .hotel-about__item .heading-3 {
-      color: #132e59;
+      color: #023045;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -1478,7 +1479,7 @@ body {
         margin-right: 1rem; }
     .hotel-about__item .text {
       text-align: left;
-      color: #132e59;
+      color: #023045;
       font-weight: 700; }
       .hotel-about__item .text span {
         text-transform: uppercase;
@@ -1512,7 +1513,7 @@ body {
     align-items: center; }
     .hotel-booking__form .form-group .gender-name {
       margin-right: 2rem;
-      color: #132e59;
+      color: #023045;
       font-size: 1.6rem;
       text-transform: uppercase;
       font-weight: 700; }
@@ -1550,7 +1551,7 @@ body {
         flex-direction: column; } }
     .hotel-booking__form .form-group .pay_type-name {
       margin-right: 2rem;
-      color: #132e59;
+      color: #023045;
       font-size: 1.6rem;
       text-transform: uppercase;
       font-weight: 700; }
@@ -1629,7 +1630,7 @@ body {
   .hotel-booking__form .input-label {
     width: 40%;
     display: block;
-    color: #132e59;
+    color: #023045;
     font-size: 1.6rem;
     text-transform: uppercase;
     font-weight: 700; }
@@ -1641,7 +1642,7 @@ body {
   .hotel-booking__form .btn {
     background-color: #ecf0f3;
     padding: 1.5rem 0rem 1.6rem 0rem;
-    color: #132e59;
+    color: #023045;
     font-weight: 700;
     margin-left: auto;
     position: relative;
@@ -1770,14 +1771,14 @@ body {
     .hotel-comment__box .story-content {
       width: 90%; }
       .hotel-comment__box .story-content .heading-3 {
-        color: #132e59;
+        color: #023045;
         font-size: 2rem;
         letter-spacing: .6rem;
         margin-bottom: 2rem; }
       .hotel-comment__box .story-content .name {
         text-transform: uppercase;
         text-align: right;
-        color: #132e59;
+        color: #023045;
         font-size: 2rem;
         margin-top: .5rem; }
         .hotel-comment__box .story-content .name span {
@@ -1799,7 +1800,7 @@ body {
   .hotel-comment .btn-inline {
     position: relative;
     z-index: 10;
-    background-color: #132e59;
+    background-color: #023045;
     padding: 1.3rem 2rem;
     border: none;
     color: #fff;
@@ -1836,7 +1837,7 @@ body {
     font-family: "Old Standard TT", serif, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    color: #132e59;
+    color: #023045;
     margin-right: 1rem; }
     @media screen and (max-width: 44em) {
       .airport__rating-name {
@@ -1854,7 +1855,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: #132e59;
+    color: #023045;
     cursor: pointer; }
     @media only screen and (max-width: 19em) {
       .airport__rating-location {
@@ -1867,7 +1868,7 @@ body {
       font-weight: 700; }
   .airport__rating-value-box {
     margin-left: 2rem;
-    background-color: #132e59;
+    background-color: #023045;
     align-self: stretch;
     padding: 0rem 1rem;
     display: flex;
@@ -1887,15 +1888,14 @@ body {
   grid-template-rows: repeat(2, 7vw);
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
-  overflow: hidden;
   border-radius: 2rem;
   object-fit: cover;
   padding: 2rem 1rem;
+  overflow: hidden;
   box-shadow: inset 0.5rem 0.5rem 0.6rem rgba(0, 0, 0, 0.6), inset -0.5rem -0.5rem 0.6rem rgba(0, 0, 0, 0.6); }
   .airport-advert__box {
     height: 100%;
     width: 100%;
-    overflow: hidden;
     object-fit: cover; }
     .airport-advert__box-1 {
       grid-row: 1/-1;
@@ -2094,7 +2094,7 @@ body {
   .airport-story__box {
     position: relative;
     z-index: 10;
-    background-color: #132e59;
+    background-color: #023045;
     opacity: .9;
     padding: 2rem 5rem;
     width: 65%;
@@ -2150,11 +2150,11 @@ body {
     position: relative;
     z-index: 10;
     padding: 1rem;
-    color: #132e59; }
+    color: #023045; }
   .airport-story .btn-inline {
     position: relative;
     z-index: 10;
-    background-color: #132e59;
+    background-color: #023045;
     padding: 1.3rem 2rem;
     border: none;
     color: #fff;
@@ -2206,7 +2206,7 @@ body {
     font-family: "Old Standard TT", serif, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    color: #132e59;
+    color: #023045;
     margin-right: 1rem; }
     @media screen and (max-width: 44em) {
       .petrol__rating-name {
@@ -2221,7 +2221,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    color: #132e59;
+    color: #023045;
     cursor: pointer; }
     @media only screen and (max-width: 19em) {
       .petrol__rating-location {
@@ -2234,7 +2234,7 @@ body {
       font-weight: 700; }
   .petrol__rating-value-box {
     margin-left: 2rem;
-    background-color: #132e59;
+    background-color: #023045;
     align-self: stretch;
     padding: 0rem 1rem;
     display: flex;
@@ -2320,7 +2320,7 @@ body {
 .petrol__about {
   margin-top: 4rem;
   margin-bottom: 8rem;
-  background-color: #132e59;
+  background-color: #023045;
   padding-bottom: 5rem; }
   @media only screen and (max-width: 19rem) {
     .petrol__about {
@@ -2337,7 +2337,7 @@ body {
       width: 10rem;
       margin-right: 2rem; }
   .petrol__about-box {
-    background-color: #132e59;
+    background-color: #023045;
     border-radius: .5rem;
     width: 70%;
     margin: 0rem auto;
@@ -2377,7 +2377,7 @@ body {
 .footer {
   background-color: rgba(0, 0, 0, 0.9);
   grid-column: sidebar-start / full-end;
-  color: #aaa;
+  color: #a39494;
   padding: 4rem 0rem;
   display: grid;
   grid-template-rows: min-content;
