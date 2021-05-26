@@ -1,18 +1,25 @@
      
+
+
 // event on load
 document.addEventListener('DOMContentLoaded', function(){
   // alert('yes')
   setTimeout(function(){ document.querySelector('.notify-box').style.display = 'block';}, 22000);
 
-  setTimeout(function(){ document.querySelector('.notify-box').style.display = 'none';}, 30000);
+  setTimeout(function(){ document.querySelector('.notify-box').style.display = 'none';}, 32000);
 });
 // notify message
 document.querySelector('.notification-box-2').addEventListener('click', function(){
-  document.querySelector('.notify-box').classList.add('display-pop-msg');
   
-   setTimeout(function(){ document.querySelector('.notify-box').classList.remove('display-pop-msg');}, 8000);
-})
+  if(document.querySelector('.notify-box').style.display === "block"){
+    document.querySelector('.notify-box').style.display = 'none';
+  }
+  else if(document.querySelector('.notify-box').style.display === "none"){
+    document.querySelector('.notify-box').style.display = "block";
 
+  // setTimeout(function(){ document.querySelector('.notify-box').style.display = "none";}, 10000);
+  }
+})
 //menu bar function to remove/ add side bar and to give content full length
 
 document.querySelector(".header__icon-1-box").addEventListener('click', function(e){
@@ -257,7 +264,7 @@ document.querySelector('.form-button-submit').addEventListener('click', function
   }
 // success submission
   else{
-     //submission start
+    //submission start
        document.querySelector('.loader-img').style.display = 'block';
        document.querySelector('.book-list-form').style.display = 'none';
        clearListItems('LIST SUBMITING');
