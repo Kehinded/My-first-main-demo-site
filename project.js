@@ -2,9 +2,9 @@
 // event on load
 document.addEventListener('DOMContentLoaded', function(){
   // alert('yes')
- 
+  setTimeout(function(){ document.querySelector('.notify-box').style.display = 'block';}, 28000);
 
-  setTimeout(function(){ document.querySelector('.notify-box').style.display = 'none';}, 8000);
+  setTimeout(function(){ document.querySelector('.notify-box').style.display = 'none';}, 38000);
 });
 // notify message
 document.querySelector('.notification-box-2').addEventListener('click', function(){
