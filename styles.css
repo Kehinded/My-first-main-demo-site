@@ -376,7 +376,7 @@ body {
     .header {
       flex-direction: column; } }
   .header__detail-box {
-    background-image: linear-gradient(rgba(2, 48, 69, 0.8), rgba(2, 48, 69, 0.8)), url(/img/hotel-9.jpeg);
+    background-image: linear-gradient(rgba(2, 48, 69, 0.8), rgba(2, 48, 69, 0.8)), url(./img/hotel-9.jpeg);
     background-size: cover;
     background-position: center;
     overflow: hidden;
